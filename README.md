@@ -1,18 +1,22 @@
 ## Pre-requisites
 
-Basic knowledge of Git is required.
+Some basic knowledge of Git is required. A good introduction to understand git branching can be found [learngitbranching](https://learngitbranching.js.org)
 
-## Installation
+VSCode is the preferred IDE and comes with some preconfigured settings.
 
-1. Clone the repository
+## Development Workflow
+
+1. Clone the repository and add remote.
 
    `git clone https://github.com/jacuzzi-technologies/js-practice.git`
+
+   `git remote add origin https://github.com/jacuzzi-technologies/js-practice.git`
 
 2. Open Terminal and navigate to `/js-practice`
 
 3. Create and checkout a local branch
 
-   `git checkout -b <your-feature-branch>`
+   `git checkout -b <your-feature>`
 
 4. When you are ready to commit your changes
 
@@ -24,9 +28,29 @@ Basic knowledge of Git is required.
 
    After committing your code, several pre-commit hooks will run and will reject your commit if any errors are found. Make sure to correct any errors before committing your work.
 
-   `git push origin <your-feature-branch>`
+   `git push origin <your-feature>`
 
    Make a mistake? Git being weird?
    Learn about some common solutions to undo git changes
 
-   [https://ohshitgit.com/](ohshitgit)
+   [ohshitgit](https://ohshitgit.com/)
+
+5. Open a pull request (PR) in Github and add reviewer
+
+   **Do not make a pull request to the main.**
+
+   All pull requests should be made to your development branch, it will look something like this
+
+   `<your-github-username> <----- <your-feature>`
+
+6. Address any code comments
+
+7. When pull request is accepted, merge your feature branch into your development branch and delete your feature branch in Github.
+
+8. Pull down your development branch which now contains your changes.
+
+   `git pull origin <your-github-username>`
+
+9. Checkout a new feature branch off of your development branch
+
+   `git checkout -b <your-next-feature> <your-github-username>`
