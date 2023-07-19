@@ -5,7 +5,7 @@
 // the predicate function
 
 export default function filter<T>(array: Array<T>, callback: (el: T) => boolean): Array<T> {
-  const result = [];
+  const result: Array<T> = [];
   for (let i = 0; i < array.length; i += 1) {
     const el = array[i]
     if (callback(el)) {
