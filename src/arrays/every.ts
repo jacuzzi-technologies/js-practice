@@ -11,5 +11,6 @@
 // **REMOVE THIS LINE**
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function every<T>(array: Array<T>, callback: (element: T) => boolean): boolean {
+  // do stuff
   return true;
 }
