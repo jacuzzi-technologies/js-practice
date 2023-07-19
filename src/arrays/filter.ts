@@ -4,9 +4,13 @@
 // The filter function should return the new array with only the elements that pass
 // the predicate function
 
-// **REMOVE THIS LINE**
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function filter<T>(array: Array<T>, callback: (el: T) => boolean): Array<T> {
-  // do stuff
-  return [];
+  const result = [];
+  for (let i = 0; i < array.length; i += 1) {
+    const el = array[i]
+    if (callback(el)) {
+      result.push(el);
+    }
+  }
+  return result;
 }
