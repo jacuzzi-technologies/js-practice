@@ -4,7 +4,7 @@
   "description": "javascript practice problems",
   "scripts": {
     "test": "jest",
-    "test-dev": "jest --watchAll",
+    "test-watch": "jest --watchAll",
     "lint": "eslint ./src --ext .js,.ts --fix --max-warnings=0",
     "format": "prettier . --write"
   },
@@ -36,9 +36,7 @@
     "typescript": "~4.7.0"
   },
   "lint-staged": {
-    "/src/**/.*{ts}": [
-      "npm run format",
-      "npm run lint"
-    ]
+    "*": "npm run format",
+    "*{js,ts}": "npm run lint"
   }
 }
