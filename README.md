@@ -37,7 +37,7 @@ VSCode is the preferred IDE and comes with some preconfigured settings.
 
 5. Open a pull request (PR) in Github and add reviewer
 
-   **Do not make a pull request to the main.**
+   **Do not make a pull request to the main branch.**
 
    All pull requests should be made to your development branch, it will look something like this
 
