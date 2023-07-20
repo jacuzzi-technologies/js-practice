@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "javascript practice problems",
   "scripts": {
-    "test": "jest --findRelatedTests",
+    "test": "jest",
     "test-watch": "jest --watchAll",
-    "lint": "eslint ./src --ext .js,.ts --fix --max-warnings=0",
+    "lint": "eslint --fix --max-warnings=0",
     "format": "prettier --write",
     "tsc": "tsc --noEmit"
   },
