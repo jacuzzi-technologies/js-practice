@@ -69,8 +69,8 @@ Note: Your development branch will be your Github username.
 
 `npm run test-watch` will watch files for changes and run tests automatically.
 
-1. Write a test that tests ONE thing.
-2. Implement only the logic to make that test pass
-3. Write another test
-4. Implement only the logic to make the second test pass
+1. Write a FAILING test that tests a single piece of logic
+2. Implement only the logic to make that test PASS
+3. Write another FAILING test
+4. Implement only the logic to make the second test PASS
 etc.
