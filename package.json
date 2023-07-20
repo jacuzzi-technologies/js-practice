@@ -6,7 +6,8 @@
     "test": "jest",
     "test-watch": "jest --watchAll",
     "lint": "eslint ./src --ext .js,.ts --fix --max-warnings=0",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "tsc": "tsc --noEmit"
   },
   "author": "Ryan Vazquez",
   "license": "MIT",
@@ -37,6 +38,6 @@
   },
   "lint-staged": {
     "*": "npm run format",
-    "*{js,ts}": "npm run lint"
+    "*{js,ts}": ["npm run lint", "npm run tsc"]
   }
 }
