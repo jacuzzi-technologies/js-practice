@@ -58,5 +58,7 @@ VSCode is the preferred IDE and comes with some preconfigured settings.
 10. To update your local development branch with main
 
     `git pull origin main`
+    
     `git checkout <your-development-branch>`
+    
     `git rebase main`
