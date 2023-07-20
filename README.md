@@ -5,7 +5,7 @@ The purpose of the repo is to ramp up on JavaScript fundamentals while using too
 1. All code is formatted, linted and staticly typed.
 2. Pre-commit hooks will enforce an opinionated code style. This repo uses [AirBnB](https://github.com/airbnb/javascript)
 3. All code changes must be self-contained. No commit should contain breaking changes.
-
+   
 ## Pre-requisites
 
 Some basic knowledge of Git is required. A good introduction to understand git branching can be found [learngitbranching](https://learngitbranching.js.org)
@@ -26,7 +26,7 @@ Note: Your development branch will be your Github username.
 
 3. Create and checkout a local feature branch
 
-   `git checkout -b <development-branch> <your-feature-branch>`
+   `git checkout -b <development-branch> <feature-branch>`
 
 4. When you are ready to commit your changes
 
@@ -38,7 +38,7 @@ Note: Your development branch will be your Github username.
 
    After committing your code, several pre-commit hooks will run and will reject your commit if any errors are found. Make sure to correct any errors or merge conflicts before committing your work.
 
-   `git push origin <your-feature-branch>`
+   `git push origin <feature-branch>`
 
    Make a mistake? Git being weird?
    Learn about some common solutions to undo git changes
@@ -51,7 +51,7 @@ Note: Your development branch will be your Github username.
 
    All pull requests should be made to your development branch, it will look something like this
 
-   `<your-development-branch> <----- <your-feature-branch>`
+   `<your-development-branch> <----- <feature-branch>`
 
 6. Address any code comments
 
@@ -59,17 +59,17 @@ Note: Your development branch will be your Github username.
 
 8. Pull down your development branch which now contains your changes.
 
-   `git pull origin <your-development-branch>`
+   `git pull origin <development-branch>`
 
 9. Checkout a new feature branch off of your development branch
 
-   `git checkout -b <your-next-feature> <your-github-username>`
+   `git checkout -b <feature-branch> <development-branch>`
 
 10. To update your local development branch with main
 
     `git pull origin main`
     
-    `git checkout <your-development-branch>`
+    `git checkout <development-branch>`
     
     `git rebase main`
 
@@ -90,7 +90,6 @@ etc.
    Create a Github issue if you are blocked and need help. Use the "help wanted" tag.
 
    When creating a help ticket, use the following format:
-   1. Summary - A brief, high level summary of what you're trying to do
-   2. What Happened - Any additional context that may be needed to understand the problem
-   3. What I Expect To Happen
-   4. What I've Tried - What you've tried and why you think it didn't work
+   1. The Problem
+   2. What I Expect To Happen
+   3. What I've Tried
