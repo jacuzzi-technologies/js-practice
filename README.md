@@ -51,7 +51,7 @@ Note: Your development branch will be your Github username.
 
    All pull requests should be made to your development branch, it will look something like this
 
-   `<your-development-branch> <----- <feature-branch>`
+   `<development-branch> <----- <feature-branch>`
 
 6. Address any code comments
 
