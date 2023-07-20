@@ -4,6 +4,8 @@
 // The filter function should return the new array with only the elements that pass
 // the predicate function
 
+// https://lodash.com/docs/4.17.15#filter
+
 // const evens = filter([1,2,3], n => n % 2 === 0); // [2]
 // const odds = filter([2,4,6], n => n % 2 !== 0);  // []
 
