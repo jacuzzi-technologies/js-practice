@@ -35,7 +35,7 @@ VSCode is the preferred IDE and comes with some preconfigured settings.
 
    [ohshitgit](https://ohshitgit.com/)
 
-5. Open a pull request (PR) in Github and add reviewer (ryanvazquez)
+5. Open a pull request (PR) in Github and add reviewer (@ryanvazquez)
 
    **Do not make a pull request to the main branch.**
 
