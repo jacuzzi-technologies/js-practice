@@ -62,3 +62,13 @@ VSCode is the preferred IDE and comes with some preconfigured settings.
     `git checkout <your-development-branch>`
     
     `git rebase main`
+
+## Test Driven Development
+
+`npm run test-watch` will watch files for changes and run tests automatically.
+
+1. Write a test that tests ONE thing.
+2. Implement only the logic to make that test pass
+3. Write another test
+4. Implement only the logic to make the second test pass
+etc.
