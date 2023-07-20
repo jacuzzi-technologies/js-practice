@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "npm run lint",
+    "npm run format",
+    "npm run tsc",
+    "npm run test"
+  ]
+}
