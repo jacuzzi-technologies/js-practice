@@ -4,6 +4,8 @@
 // The callback function will accept the current element and if the callback returns false
 // the whole function should return false. Otherwise, it should return true.
 
+// https://lodash.com/docs/4.17.15#every
+
 // const isOdd = every([1,2,3], n => n % 2 !== 0);  // false
 // const isEven = every([2,4,6], n => n % 2 === 0); // true
 

@@ -2,6 +2,8 @@
 // and a callback as parameters. The callback will be invoked
 // for each element in the array. This function should not return anything.
 
+// https://lodash.com/docs/4.17.15#forEach
+
 // forEach(["hello", "world"], word => console.log(word));
 
 // **REMOVE THIS LINE**
