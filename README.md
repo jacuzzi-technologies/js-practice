@@ -82,3 +82,15 @@ Note: Your development branch will be your Github username.
 3. Write another FAILING test
 4. Implement only the logic to make the second test PASS
 etc.
+
+## Report a bug
+   Create a Github issue to report a bug with this repo. Use the "bug" tag.
+
+## Help and Troubleshooting
+   Create a Github issue if you are blocked and need help. Use the "help wanted" tag.
+
+   When creating a help ticket, use the following format:
+   1. Summary - A brief, high level summary of what you're trying to do
+   2. What Happened - Any additional context that may be needed to understand the problem
+   3. What I Expect To Happen
+   4. What I've Tried - What you've tried and why you think it didn't work
