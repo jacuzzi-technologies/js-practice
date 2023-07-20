@@ -1,3 +1,11 @@
+## Purpose
+
+The purpose of the repo is to ramp up on JavaScript fundamentals while using tools and practices that will be expected on the job.
+
+1. All code is formatted, linted and staticly typed.
+2. Pre-commit hooks will enforce an opinionated code style. This repo uses [AirBnB](https://github.com/airbnb/javascript)
+3. All code changes must be self-contained. No commit should contain breaking changes.
+
 ## Pre-requisites
 
 Some basic knowledge of Git is required. A good introduction to understand git branching can be found [learngitbranching](https://learngitbranching.js.org)
