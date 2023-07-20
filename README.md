@@ -6,6 +6,8 @@ VSCode is the preferred IDE and comes with some preconfigured settings.
 
 ## Development Workflow
 
+Note: Your development branch will be your Github username.
+
 1. Clone the repository and add remote.
 
    `git clone https://github.com/jacuzzi-technologies/js-practice.git`
